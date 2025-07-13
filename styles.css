@@ -1,0 +1,93 @@
+/* styles.css */
+
+:root {
+  --bg-color: #000;
+  --term-bg: #111;
+  --fg-color: #0f0;
+  --header-dot-red: #ff5f56;
+  --header-dot-yellow: #ffbd2e;
+  --header-dot-green: #27c93f;
+  --font-mono: 'Courier New', Courier, monospace;
+}
+
+/* Base resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  font-family: var(--font-mono);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Terminal window */
+.terminal {
+  background-color: var(--term-bg);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #222;
+  gap: 0.5rem;
+}
+
+.header-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--header-dot-red);
+}
+
+.header-dot.yellow {
+  background-color: var(--header-dot-yellow);
+}
+
+.header-dot.green {
+  background-color: var(--header-dot-green);
+}
+
+.terminal-body {
+  padding: 1rem;
+  line-height: 1.5;
+  font-size: 1rem;
+  min-height: 200px; /* placeholder for content */
+}
+
+/* Placeholder for AI use-case items */
+.use-case {
+  margin-bottom: 1rem;
+}
+
+.use-case-title {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.use-case-desc {
+  opacity: 0.8;
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .terminal-body {
+    font-size: 0.9rem;
+  }
+}
