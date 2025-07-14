@@ -85,6 +85,25 @@ body {
   opacity: 0.8;
 }
 
+.intro-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Responsive stacking on small screens */
+}
+
+.intro-image {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.intro-text {
+  flex: 1;
+  min-width: 200px;
+}
+
 /* Responsive tweaks */
 @media (max-width: 480px) {
   .terminal-body {
