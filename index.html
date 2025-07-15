@@ -1,50 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>drs-az > llm prompts and other things</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>drs-az – Projects & Prompts</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
   <div class="container">
-    <div class="terminal">
-      <div class="terminal-header">
-        <div class="header-dot red"></div>
-        <div class="header-dot yellow"></div>
-        <div class="header-dot green"></div>
-      </div>
-      <div class="terminal-body">
-<div class="intro-flex">
-  <img src="shadowy_super_code_avatar_compressed.jpg" class="intro-image" alt="Code Avatar">
-  <p class="intro-text"><span class="prompt"><a href="https://github.com/drs-az" style="text-decoration: none; color: white;">drs-az</a>:~$</span> Welcome to my library of LLM prompts to use in your life to be more self-aware, reflective, and productive; some LLM prompts just for fun; and some other projects that you may find useful.</p>
-</div>
-<br>
-        <div class="use-case">
-          <p class="use-case-title">CoupleSync</p>
-          <p class="use-case-desc">CoupleSync is an AI-powered relationship optimization tool that helps couples deeply understand themselves and each other. Through a comprehensive questionnaire, it creates detailed psychological profiles for each partner and analyzes the dynamic between them. These insights are then integrated into a personalized AI coach, available 24/7 to guide communication, resolve conflict, and strengthen connection. It’s like having a relationship expert in your pocket—tailored to you. Try it <a href="https://drs-az.github.io/CoupleSync/" style="text-decoration: none; color: red;">here</a>.</p>
-        </div>
-        <div class="use-case">
-          <p class="use-case-title">Livie</p>
-          <p class="use-case-desc">Livie is an AI-powered coach designed to guide you through daily check-ins, micro-lessons, mood tracking, and tiny actionable steps—so you can build self-awareness, healthy routines, and a positive self-image without overwhelm. Try it <a href="https://drs-az.github.io/Livie/" style="text-decoration: none; color: red;">here</a>.</p>
-</div>
-        <div class="use-case">
-          <p class="use-case-title">Story Quilt</p>
-          <p class="use-case-desc">Story Quilt is a guided storytelling experience that helps grandparents share their life stories using familiar tools like voice-to-text in Google Messages or any AI chat app. With a single prompt, users are gently led through meaningful questions, one memory at a time. They can skip questions, speak naturally, and receive a beautifully written story crafted from their own words. No accounts, no apps—just their voice, their story, and their legacy. Try it <a href="https://drs-az.github.io/Story-Quilt/" style="text-decoration: none; color: red;">here</a>.</p>
-</div>
+    <div class="header">
+      <h1>drs-az</h1>
+      <button class="toggle-btn" onclick="toggleTheme()">Toggle Theme</button>
+    </div>
 
-      <div class="use-case">
-          <p class="use-case-title">Storylight</p>
-          <p class="use-case-desc">Storylight is a Christian storytelling assistant that helps parents craft 10–15 minute bedtime stories rooted in biblical principles. Each story is fully customized to your child’s age, personality, and spiritual growth needs, delivering warmth, imagination, and faith in every tale. Try it <a href="https://drs-az.github.io/Storylight/" style="text-decoration: none; color: red;">here</a>.</p>
-</div>
-
-        <div class="use-case">
-          <p class="use-case-title">HexaShift</p>
-          <p class="use-case-desc">HexaShift is a lightweight, offline encryption tool built for privacy, simplicity, and control. Designed as a standalone Progressive Web App (PWA), it enables peer-to-peer message and file encryption using high-entropy passphrases — with no servers, no accounts, and no data collection. Once loaded, HexaShift works entirely offline. Try it <a href="https://drs-az.github.io/SSET/" style="text-decoration: none; color: red;">here</a>.</p>
-</div>
-
+    <div class="card">
+      <div class="card-desc">
+        <strong>Welcome!</strong> This is a collection of AI-powered tools and prompts to help you grow, reflect, and create. Built by <a href="https://github.com/drs-az">drs-az</a>.
       </div>
     </div>
+
+    <div class="card">
+      <div class="card-title">CoupleSync</div>
+      <div class="card-desc">An AI-powered tool to help couples understand themselves and each other through psychological profiling. Try it <a href="https://drs-az.github.io/CoupleSync/">here</a>.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Livie</div>
+      <div class="card-desc">A self-coaching tool for emotional growth, self-awareness, and habit tracking. Try it <a href="https://drs-az.github.io/Livie/">here</a>.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Story Quilt</div>
+      <div class="card-desc">A guided voice-to-text journaling experience for grandparents to preserve their life stories. Try it <a href="https://drs-az.github.io/Story-Quilt/">here</a>.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Storylight</div>
+      <div class="card-desc">A bedtime story generator rooted in Christian principles, personalized for your child’s growth. Try it <a href="https://drs-az.github.io/Storylight/">here</a>.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">HexaShift</div>
+      <div class="card-desc">A peer-to-peer encryption tool that works offline and requires no accounts. Try it <a href="https://drs-az.github.io/SSET/">here</a>.</div>
+    </div>
   </div>
+
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const newTheme = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+    }
+
+    // Set theme on page load
+    (function() {
+      const saved = localStorage.getItem('theme');
+      const system = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', saved || system);
+    })();
+  </script>
 </body>
 </html>
