@@ -12,15 +12,20 @@
   <div class="container">
     <header class="site-header">
       <h1 class="site-title">drs-az</h1>
-      </header>
+      <nav class="site-nav">
+        <a href="#projects">Projects</a>
+        <a href="#prompts">Prompts</a>
+        <a href="https://github.com/drs-az" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+      <button class="theme-toggle" onclick="toggleTheme()">
+        <span class="light-icon">☀️</span>
+        <span class="dark-icon">🌙</span>
+      </button>
+    </header>
 
-    <button class="theme-toggle" onclick="toggleTheme()">
-      <span class="light-icon">☀️</span>
-      <span class="dark-icon">🌙</span>
-    </button>
-
-    <section class="intro-card">
-      <p><strong>Welcome!</strong> This is a collection of AI-powered tools and prompts to help you grow, reflect, and create. Built by <a href="https://github.com/drs-az" target="_blank" rel="noopener noreferrer">drs-az</a>.</p>
+    <section class="hero">
+      <h2>Crafting AI prompts and web experiments</h2>
+      <p class="hero-text">Welcome! I'm <a href="https://github.com/drs-az" target="_blank" rel="noopener noreferrer">drs-az</a>, and this site gathers my explorations with large language models alongside other small projects.</p>
     </section>
 
     <main class="projects-grid">
@@ -49,6 +54,15 @@
         <p class="project-description">A peer-to-peer encryption tool that works offline and requires no accounts. Try it <a href="https://drs-az.github.io/SSET/" target="_blank" rel="noopener noreferrer">here</a>.</p>
       </div>
     </main>
+
+    <section id="prompts" class="prompt-section">
+      <h2>Prompt Collections</h2>
+      <p>Find my curated prompts on <a href="https://github.com/drs-az" target="_blank" rel="noopener noreferrer">GitHub</a>. I frequently update them as I experiment with new ideas.</p>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 drs-az</p>
+    </footer>
   </div>
 
   <script>
