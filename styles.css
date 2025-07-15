@@ -106,8 +106,8 @@ a:hover {
 
   /* --- Positioning for upper right corner --- */
   position: absolute;
-  top: 1.5rem;    /* Adjust for desired space from the top */
-  right: 1.5rem;  /* Adjust for desired space from the right */
+  top: 10rem;    /* Adjust for desired space from the top */
+  right: 10rem;  /* Adjust for desired space from the right */
   z-index: 1000;
 }
 
