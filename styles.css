@@ -106,8 +106,8 @@ a:hover {
 
   /* --- Positioning for upper right corner --- */
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 50x;
+  right: 50px;
   z-index: 1000;
 }
 
