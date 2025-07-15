@@ -82,8 +82,14 @@ a:hover {
   border-bottom: 1px solid var(--border-color);
 }
 
-.site-nav {
+.nav-wrapper {
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.site-nav {
   display: flex;
   gap: 1.5rem;
   font-family: var(--font-body);
@@ -223,6 +229,16 @@ html[data-theme="dark"] .theme-toggle .dark-icon { display: inline-block; }
     gap: 1rem;
   }
 
+  .nav-wrapper {
+    width: 100%;
+    margin-left: 0;
+    justify-content: space-between;
+  }
+
+  .site-nav {
+    gap: 1rem;
+  }
+
   .site-title {
     font-size: 2rem;
   }
@@ -271,6 +287,10 @@ html[data-theme="dark"] .theme-toggle .dark-icon { display: inline-block; }
   }
   .site-title {
     font-size: 1.8rem;
+  }
+  .nav-wrapper {
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
   .theme-toggle {
     padding: 0.4rem 0.8rem;
