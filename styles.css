@@ -189,6 +189,8 @@ html[data-theme="dark"] .theme-toggle .dark-icon { display: inline-block; }
 }
 
 .project-description {
+  display: flex;
+  align-items: flex-start; /* aligns content to the top */
   font-size: 1.05rem;
   line-height: 1.6;
   color: var(--text-color);
