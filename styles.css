@@ -1,31 +1,31 @@
 /* --- Google Fonts --- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
 
 /* --- CSS Variables for Themes --- */
 :root {
   /* Light Theme */
-  --bg-color: #f7f7f7;
-  --text-color: #333;
+  --bg-color: #eef3f6;
+  --text-color: #2c3e50;
   --card-bg: #ffffff;
-  --border-color: #e0e0e0;
-  --accent-color: #4f46e5; /* Indigo */
-  --accent-light: #eef2ff; /* Lighter shade for hover */
-  --shadow-color: rgba(0, 0, 0, 0.08);
+  --border-color: #d1d9e6;
+  --accent-color: #008c8c;
+  --accent-light: #c6f0ed;
+  --shadow-color: rgba(0, 0, 0, 0.1);
 
   /* Fonts */
-  --font-heading: 'Poppins', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
 }
 
 [data-theme="dark"] {
   /* Dark Theme */
-  --bg-color: #1a1a1a;
-  --text-color: #e0e0e0;
-  --card-bg: #2b2b2b;
-  --border-color: #3a3a3a;
-  --accent-color: #a5b4fc; /* Light indigo */
-  --accent-light: #1d1f33; /* Darker shade for hover */
-  --shadow-color: rgba(0, 0, 0, 0.4);
+  --bg-color: #121e25;
+  --text-color: #e8eef3;
+  --card-bg: #1e2a32;
+  --border-color: #27343d;
+  --accent-color: #2dd4bf;
+  --accent-light: #125a52;
+  --shadow-color: rgba(0, 0, 0, 0.5);
 }
 
 /* --- Global Styles --- */
@@ -67,8 +67,8 @@ a:hover {
   width: 100%;
   padding: 2rem 1.5rem;
   background-color: var(--card-bg);
-  border-radius: 8px;
-  box-shadow: 0 2px 8px var(--shadow-color);
+  border-radius: 12px;
+  box-shadow: 0 3px 12px var(--shadow-color);
 }
 
 /* --- Header --- */
@@ -169,7 +169,7 @@ html[data-theme="dark"] .theme-toggle .dark-icon { display: inline-block; }
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 0.75rem;
 }
 
 .project-card:hover {
