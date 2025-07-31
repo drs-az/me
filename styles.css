@@ -1,31 +1,31 @@
 /* --- Google Fonts --- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
 
 /* --- CSS Variables for Themes --- */
 :root {
   /* Light Theme */
-  --bg-color: #f7f7f7;
-  --text-color: #333;
+  --bg-color: #eef3f6;
+  --text-color: #2c3e50;
   --card-bg: #ffffff;
-  --border-color: #e0e0e0;
-  --accent-color: #4f46e5; /* Indigo */
-  --accent-light: #eef2ff; /* Lighter shade for hover */
-  --shadow-color: rgba(0, 0, 0, 0.08);
+  --border-color: #d1d9e6;
+  --accent-color: #008c8c;
+  --accent-light: #c6f0ed;
+  --shadow-color: rgba(0, 0, 0, 0.1);
 
   /* Fonts */
-  --font-heading: 'Poppins', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
 }
 
 [data-theme="dark"] {
   /* Dark Theme */
-  --bg-color: #1a1a1a;
-  --text-color: #e0e0e0;
-  --card-bg: #2b2b2b;
-  --border-color: #3a3a3a;
-  --accent-color: #a5b4fc; /* Light indigo */
-  --accent-light: #1d1f33; /* Darker shade for hover */
-  --shadow-color: rgba(0, 0, 0, 0.4);
+  --bg-color: #121e25;
+  --text-color: #e8eef3;
+  --card-bg: #1e2a32;
+  --border-color: #27343d;
+  --accent-color: #2dd4bf;
+  --accent-light: #125a52;
+  --shadow-color: rgba(0, 0, 0, 0.5);
 }
 
 /* --- Global Styles --- */
@@ -63,41 +63,42 @@ a:hover {
 
 /* --- Layout Container --- */
 .container {
-  max-width: 960px;
+  max-width: 800px;
   width: 100%;
-  padding: 2rem;
-  background-color: var(--card-bg); /* Use card background for main container */
+  padding: 2rem 1.5rem;
+  background-color: var(--card-bg);
   border-radius: 12px;
-  box-shadow: 0 4px 20px var(--shadow-color);
-  border: 1px solid var(--border-color); /* Subtle border for definition */
+  box-shadow: 0 3px 12px var(--shadow-color);
 }
 
 /* --- Header --- */
 .site-header {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  justify-content: space-between;
   margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border-color);
 }
 
 .nav-wrapper {
-  margin-left: auto;
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .site-nav {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   font-family: var(--font-body);
+}
+
+.site-nav a.active {
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .site-title {
   font-family: var(--font-heading);
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
   color: var(--text-color);
   margin: 0;
@@ -136,13 +137,8 @@ html[data-theme="dark"] .theme-toggle .dark-icon { display: inline-block; }
 
 /* --- Hero Section --- */
 .hero {
-  background-color: var(--accent-light);
-  color: var(--text-color);
-  padding: 2rem;
-  border-radius: 10px;
-  margin-bottom: 3rem;
   text-align: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
 }
 
 .hero h2 {
@@ -153,7 +149,9 @@ html[data-theme="dark"] .theme-toggle .dark-icon { display: inline-block; }
 }
 
 .hero-text {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0.5rem auto 0;
 }
 
 /* --- Projects Grid --- */
@@ -164,20 +162,20 @@ html[data-theme="dark"] .theme-toggle .dark-icon { display: inline-block; }
 }
 
 .project-card {
-  background-color: var(--bg-color); /* Using the main background color for cards for contrast */
+  background-color: var(--bg-color);
   border: 1px solid var(--border-color);
-  border-radius: 8px;
-  padding: 1.8rem;
+  border-radius: 6px;
+  padding: 1.5rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Pushes content to top/bottom if card height varies */
+  gap: 0.75rem;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px var(--shadow-color);
-  border-color: var(--accent-color); /* Highlight border on hover */
+  transform: translateY(-4px);
+  box-shadow: 0 4px 15px var(--shadow-color);
+  border-color: var(--accent-color);
 }
 
 .project-title {
@@ -189,6 +187,35 @@ html[data-theme="dark"] .theme-toggle .dark-icon { display: inline-block; }
 }
 
 .project-description {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+/* --- Blog Styles --- */
+.blog-posts {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.blog-post {
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 5px var(--shadow-color);
+}
+
+.blog-post h2 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+}
+
+.blog-post p {
   font-size: 1.05rem;
   line-height: 1.6;
   color: var(--text-color);
@@ -245,11 +272,6 @@ html[data-theme="dark"] .theme-toggle .dark-icon { display: inline-block; }
 
   .container {
     padding: 1.5rem;
-  }
-
-  .hero {
-    padding: 1.2rem 1.5rem;
-    margin-bottom: 2rem;
   }
 
   .hero-text {
