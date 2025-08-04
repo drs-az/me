@@ -1,0 +1,874 @@
+{
+  "Data": [
+    {
+      "Area Code": 51300,
+      "Primary Rate": 7.9026,
+      "Secondary Rate": 9.2945
+    },
+    {
+      "Area Code": 591300,
+      "Primary Rate": 7.1061,
+      "Secondary Rate": 9.0845
+    },
+    {
+      "Area Code": 661300,
+      "Primary Rate": 6.982,
+      "Secondary Rate": 8.4419
+    },
+    {
+      "Area Code": 921300,
+      "Primary Rate": 7.0503,
+      "Secondary Rate": 8.1832
+    },
+    {
+      "Area Code": 50000,
+      "Primary Rate": 6.6368,
+      "Secondary Rate": 8.4804
+    },
+    {
+      "Area Code": 681300,
+      "Primary Rate": 6.9522,
+      "Secondary Rate": 8.1308
+    },
+    {
+      "Area Code": 710000,
+      "Primary Rate": 14.19,
+      "Secondary Rate": 0.6646
+    },
+    {
+      "Area Code": 651700,
+      "Primary Rate": 7.2853,
+      "Secondary Rate": 7.5554
+    },
+    {
+      "Area Code": 920700,
+      "Primary Rate": 6.1173,
+      "Secondary Rate": 8.5288
+    },
+    {
+      "Area Code": 920100,
+      "Primary Rate": 6.4086,
+      "Secondary Rate": 8.2042
+    },
+    {
+      "Area Code": 401300,
+      "Primary Rate": 6.7394,
+      "Secondary Rate": 7.8635
+    },
+    {
+      "Area Code": 680700,
+      "Primary Rate": 6.0192,
+      "Secondary Rate": 8.4764
+    },
+    {
+      "Area Code": 171700,
+      "Primary Rate": 7.3714,
+      "Secondary Rate": 7.0923
+    },
+    {
+      "Area Code": 621300,
+      "Primary Rate": 7.3671,
+      "Secondary Rate": 7.0264
+    },
+    {
+      "Area Code": 651300,
+      "Primary Rate": 7.0317,
+      "Secondary Rate": 7.2093
+    },
+    {
+      "Area Code": 590000,
+      "Primary Rate": 5.8403,
+      "Secondary Rate": 8.2704
+    },
+    {
+      "Area Code": 11300,
+      "Primary Rate": 6.8503,
+      "Secondary Rate": 7.1917
+    },
+    {
+      "Area Code": 400700,
+      "Primary Rate": 5.8064,
+      "Secondary Rate": 8.2091
+    },
+    {
+      "Area Code": 650800,
+      "Primary Rate": 6.6916,
+      "Secondary Rate": 7.2045
+    },
+    {
+      "Area Code": 171300,
+      "Primary Rate": 7.1178,
+      "Secondary Rate": 6.7462
+    },
+    {
+      "Area Code": 71300,
+      "Primary Rate": 6.8531,
+      "Secondary Rate": 6.8436
+    },
+    {
+      "Area Code": 141300,
+      "Primary Rate": 6.9415,
+      "Secondary Rate": 6.7097
+    },
+    {
+      "Area Code": 650100,
+      "Primary Rate": 6.39,
+      "Secondary Rate": 7.2303
+    },
+    {
+      "Area Code": 451700,
+      "Primary Rate": 7.2937,
+      "Secondary Rate": 6.2667
+    },
+    {
+      "Area Code": 660000,
+      "Primary Rate": 5.7162,
+      "Secondary Rate": 7.6278
+    },
+    {
+      "Area Code": 211300,
+      "Primary Rate": 6.9491,
+      "Secondary Rate": 6.2994
+    },
+    {
+      "Area Code": 170100,
+      "Primary Rate": 6.4761,
+      "Secondary Rate": 6.7672
+    },
+    {
+      "Area Code": 81300,
+      "Primary Rate": 6.8778,
+      "Secondary Rate": 6.2988
+    },
+    {
+      "Area Code": 920000,
+      "Primary Rate": 5.7845,
+      "Secondary Rate": 7.3691
+    },
+    {
+      "Area Code": 381300,
+      "Primary Rate": 6.9279,
+      "Secondary Rate": 6.1133
+    },
+    {
+      "Area Code": 680000,
+      "Primary Rate": 5.6864,
+      "Secondary Rate": 7.3167
+    },
+    {
+      "Area Code": 451300,
+      "Primary Rate": 7.0401,
+      "Secondary Rate": 5.9206
+    },
+    {
+      "Area Code": 311600,
+      "Primary Rate": 6.5427,
+      "Secondary Rate": 6.417
+    },
+    {
+      "Area Code": 860800,
+      "Primary Rate": 11.4112,
+      "Secondary Rate": 1.4739
+    },
+    {
+      "Area Code": 61300,
+      "Primary Rate": 6.9237,
+      "Secondary Rate": 5.9187
+    },
+    {
+      "Area Code": 21300,
+      "Primary Rate": 6.4906,
+      "Secondary Rate": 6.2712
+    },
+    {
+      "Area Code": 311300,
+      "Primary Rate": 6.9338,
+      "Secondary Rate": 5.6767
+    },
+    {
+      "Area Code": 400000,
+      "Primary Rate": 5.4736,
+      "Secondary Rate": 7.0494
+    },
+    {
+      "Area Code": 620000,
+      "Primary Rate": 6.1013,
+      "Secondary Rate": 6.2123
+    },
+    {
+      "Area Code": 330200,
+      "Primary Rate": 7.9942,
+      "Secondary Rate": 4.2727
+    },
+    {
+      "Area Code": 60700,
+      "Primary Rate": 5.9907,
+      "Secondary Rate": 6.2643
+    },
+    {
+      "Area Code": 650000,
+      "Primary Rate": 5.7659,
+      "Secondary Rate": 6.3952
+    },
+    {
+      "Area Code": 10000,
+      "Primary Rate": 5.5845,
+      "Secondary Rate": 6.3776
+    },
+    {
+      "Area Code": 41600,
+      "Primary Rate": 6.7205,
+      "Secondary Rate": 5.157
+    },
+    {
+      "Area Code": 170000,
+      "Primary Rate": 5.852,
+      "Secondary Rate": 5.9321
+    },
+    {
+      "Area Code": 31600,
+      "Primary Rate": 6.4085,
+      "Secondary Rate": 5.3534
+    },
+    {
+      "Area Code": 70000,
+      "Primary Rate": 5.5873,
+      "Secondary Rate": 6.0295
+    },
+    {
+      "Area Code": 141100,
+      "Primary Rate": 5.6757,
+      "Secondary Rate": 5.8956
+    },
+    {
+      "Area Code": 140000,
+      "Primary Rate": 5.6757,
+      "Secondary Rate": 5.8956
+    },
+    {
+      "Area Code": 250800,
+      "Primary Rate": 7.1448,
+      "Secondary Rate": 4.3727
+    },
+    {
+      "Area Code": 311400,
+      "Primary Rate": 6.1638,
+      "Secondary Rate": 5.2984
+    },
+    {
+      "Area Code": 31300,
+      "Primary Rate": 6.7996,
+      "Secondary Rate": 4.6131
+    },
+    {
+      "Area Code": 250200,
+      "Primary Rate": 7.8268,
+      "Secondary Rate": 3.5634
+    },
+    {
+      "Area Code": 791300,
+      "Primary Rate": 7.2537,
+      "Secondary Rate": 4.1294
+    },
+    {
+      "Area Code": 890400,
+      "Primary Rate": 7.4116,
+      "Secondary Rate": 3.9393
+    },
+    {
+      "Area Code": 440800,
+      "Primary Rate": 6.8092,
+      "Secondary Rate": 4.4465
+    },
+    {
+      "Area Code": 250100,
+      "Primary Rate": 6.8432,
+      "Secondary Rate": 4.3985
+    },
+    {
+      "Area Code": 210000,
+      "Primary Rate": 5.6833,
+      "Secondary Rate": 5.4853
+    },
+    {
+      "Area Code": 860000,
+      "Primary Rate": 10.4855,
+      "Secondary Rate": 0.6646
+    },
+    {
+      "Area Code": 281600,
+      "Primary Rate": 6.4459,
+      "Secondary Rate": 4.6509
+    },
+    {
+      "Area Code": 80000,
+      "Primary Rate": 5.612,
+      "Secondary Rate": 5.4847
+    },
+    {
+      "Area Code": 952500,
+      "Primary Rate": 7.9593,
+      "Secondary Rate": 3.1357
+    },
+    {
+      "Area Code": 790800,
+      "Primary Rate": 6.9136,
+      "Secondary Rate": 4.1246
+    },
+    {
+      "Area Code": 801600,
+      "Primary Rate": 6.3494,
+      "Secondary Rate": 4.6584
+    },
+    {
+      "Area Code": 490200,
+      "Primary Rate": 7.4208,
+      "Secondary Rate": 3.5649
+    },
+    {
+      "Area Code": 440100,
+      "Primary Rate": 6.5076,
+      "Secondary Rate": 4.4723
+    },
+    {
+      "Area Code": 380000,
+      "Primary Rate": 5.6621,
+      "Secondary Rate": 5.2992
+    },
+    {
+      "Area Code": 790200,
+      "Primary Rate": 7.5956,
+      "Secondary Rate": 3.3153
+    },
+    {
+      "Area Code": 450000,
+      "Primary Rate": 5.7743,
+      "Secondary Rate": 5.1065
+    },
+    {
+      "Area Code": 790700,
+      "Primary Rate": 6.3207,
+      "Secondary Rate": 4.475
+    },
+    {
+      "Area Code": 60000,
+      "Primary Rate": 5.6579,
+      "Secondary Rate": 5.1046
+    },
+    {
+      "Area Code": 790100,
+      "Primary Rate": 6.612,
+      "Secondary Rate": 4.1504
+    },
+    {
+      "Area Code": 281300,
+      "Primary Rate": 6.837,
+      "Secondary Rate": 3.9106
+    },
+    {
+      "Area Code": 831300,
+      "Primary Rate": 5.2149,
+      "Secondary Rate": 5.512
+    },
+    {
+      "Area Code": 20000,
+      "Primary Rate": 5.2248,
+      "Secondary Rate": 5.4571
+    },
+    {
+      "Area Code": 330000,
+      "Primary Rate": 6.3865,
+      "Secondary Rate": 4.2727
+    },
+    {
+      "Area Code": 971300,
+      "Primary Rate": 6.743,
+      "Secondary Rate": 3.8874
+    },
+    {
+      "Area Code": 40300,
+      "Primary Rate": 6.0584,
+      "Secondary Rate": 4.4726
+    },
+    {
+      "Area Code": 310000,
+      "Primary Rate": 5.668,
+      "Secondary Rate": 4.8626
+    },
+    {
+      "Area Code": 691300,
+      "Primary Rate": 6.7895,
+      "Secondary Rate": 3.6623
+    },
+    {
+      "Area Code": 40600,
+      "Primary Rate": 5.8458,
+      "Secondary Rate": 4.5826
+    },
+    {
+      "Area Code": 602500,
+      "Primary Rate": 7.0912,
+      "Secondary Rate": 3.3292
+    },
+    {
+      "Area Code": 811200,
+      "Primary Rate": 8.2572,
+      "Secondary Rate": 2.1246
+    },
+    {
+      "Area Code": 951000,
+      "Primary Rate": 6.3279,
+      "Secondary Rate": 3.9939
+    },
+    {
+      "Area Code": 41000,
+      "Primary Rate": 5.8458,
+      "Secondary Rate": 4.4608
+    },
+    {
+      "Area Code": 31400,
+      "Primary Rate": 6.0296,
+      "Secondary Rate": 4.2348
+    },
+    {
+      "Area Code": 802500,
+      "Primary Rate": 7.1061,
+      "Secondary Rate": 3.104
+    },
+    {
+      "Area Code": 31000,
+      "Primary Rate": 5.5338,
+      "Secondary Rate": 4.6572
+    },
+    {
+      "Area Code": 830700,
+      "Primary Rate": 4.2819,
+      "Secondary Rate": 5.8576
+    },
+    {
+      "Area Code": 890700,
+      "Primary Rate": 6.034,
+      "Secondary Rate": 4.0238
+    },
+    {
+      "Area Code": 970700,
+      "Primary Rate": 5.81,
+      "Secondary Rate": 4.233
+    },
+    {
+      "Area Code": 891200,
+      "Primary Rate": 5.9912,
+      "Secondary Rate": 4.0141
+    },
+    {
+      "Area Code": 971200,
+      "Primary Rate": 5.7672,
+      "Secondary Rate": 4.2233
+    },
+    {
+      "Area Code": 811500,
+      "Primary Rate": 8.5365,
+      "Secondary Rate": 1.3626
+    },
+    {
+      "Area Code": 250000,
+      "Primary Rate": 6.2191,
+      "Secondary Rate": 3.5634
+    },
+    {
+      "Area Code": 600600,
+      "Primary Rate": 5.4598,
+      "Secondary Rate": 4.3092
+    },
+    {
+      "Area Code": 280300,
+      "Primary Rate": 5.7838,
+      "Secondary Rate": 3.9665
+    },
+    {
+      "Area Code": 800300,
+      "Primary Rate": 5.6873,
+      "Secondary Rate": 3.974
+    },
+    {
+      "Area Code": 601000,
+      "Primary Rate": 5.4598,
+      "Secondary Rate": 4.1874
+    },
+    {
+      "Area Code": 110700,
+      "Primary Rate": 5.7774,
+      "Secondary Rate": 3.8176
+    },
+    {
+      "Area Code": 800600,
+      "Primary Rate": 5.4747,
+      "Secondary Rate": 4.084
+    },
+    {
+      "Area Code": 111200,
+      "Primary Rate": 5.7346,
+      "Secondary Rate": 3.8079
+    },
+    {
+      "Area Code": 291200,
+      "Primary Rate": 5.7346,
+      "Secondary Rate": 3.8079
+    },
+    {
+      "Area Code": 891500,
+      "Primary Rate": 6.2705,
+      "Secondary Rate": 3.2521
+    },
+    {
+      "Area Code": 440000,
+      "Primary Rate": 5.8835,
+      "Secondary Rate": 3.6372
+    },
+    {
+      "Area Code": 950000,
+      "Primary Rate": 6.3279,
+      "Secondary Rate": 3.1357
+    },
+    {
+      "Area Code": 42000,
+      "Primary Rate": 5.8458,
+      "Secondary Rate": 3.6026
+    },
+    {
+      "Area Code": 40000,
+      "Primary Rate": 5.8458,
+      "Secondary Rate": 3.6026
+    },
+    {
+      "Area Code": 490000,
+      "Primary Rate": 5.8131,
+      "Secondary Rate": 3.5649
+    },
+    {
+      "Area Code": 30900,
+      "Primary Rate": 5.5338,
+      "Secondary Rate": 3.799
+    },
+    {
+      "Area Code": 30000,
+      "Primary Rate": 5.5338,
+      "Secondary Rate": 3.799
+    },
+    {
+      "Area Code": 691400,
+      "Primary Rate": 6.0195,
+      "Secondary Rate": 3.284
+    },
+    {
+      "Area Code": 792300,
+      "Primary Rate": 5.9879,
+      "Secondary Rate": 3.3153
+    },
+    {
+      "Area Code": 790000,
+      "Primary Rate": 5.9879,
+      "Secondary Rate": 3.3153
+    },
+    {
+      "Area Code": 410300,
+      "Primary Rate": 5.6613,
+      "Secondary Rate": 3.6231
+    },
+    {
+      "Area Code": 410600,
+      "Primary Rate": 5.4487,
+      "Secondary Rate": 3.7331
+    },
+    {
+      "Area Code": 630000,
+      "Primary Rate": 8.4826,
+      "Secondary Rate": 0.6646
+    },
+    {
+      "Area Code": 411000,
+      "Primary Rate": 5.4487,
+      "Secondary Rate": 3.6113
+    },
+    {
+      "Area Code": 111500,
+      "Primary Rate": 6.0139,
+      "Secondary Rate": 3.0459
+    },
+    {
+      "Area Code": 810000,
+      "Primary Rate": 7.9672,
+      "Secondary Rate": 0.9746
+    },
+    {
+      "Area Code": 470200,
+      "Primary Rate": 6.6634,
+      "Secondary Rate": 2.1733
+    },
+    {
+      "Area Code": 600000,
+      "Primary Rate": 5.4598,
+      "Secondary Rate": 3.3292
+    },
+    {
+      "Area Code": 280900,
+      "Primary Rate": 5.5712,
+      "Secondary Rate": 3.0965
+    },
+    {
+      "Area Code": 280000,
+      "Primary Rate": 5.5712,
+      "Secondary Rate": 3.0965
+    },
+    {
+      "Area Code": 830000,
+      "Primary Rate": 3.9491,
+      "Secondary Rate": 4.6979
+    },
+    {
+      "Area Code": 481600,
+      "Primary Rate": 5.3113,
+      "Secondary Rate": 3.2905
+    },
+    {
+      "Area Code": 800000,
+      "Primary Rate": 5.4747,
+      "Secondary Rate": 3.104
+    },
+    {
+      "Area Code": 890000,
+      "Primary Rate": 5.7012,
+      "Secondary Rate": 2.8641
+    },
+    {
+      "Area Code": 891900,
+      "Primary Rate": 5.7012,
+      "Secondary Rate": 2.8641
+    },
+    {
+      "Area Code": 972200,
+      "Primary Rate": 5.4772,
+      "Secondary Rate": 3.0733
+    },
+    {
+      "Area Code": 970000,
+      "Primary Rate": 5.4772,
+      "Secondary Rate": 3.0733
+    },
+    {
+      "Area Code": 750200,
+      "Primary Rate": 7.736,
+      "Secondary Rate": 0.6646
+    },
+    {
+      "Area Code": 240500,
+      "Primary Rate": 6.0526,
+      "Secondary Rate": 2.3267
+    },
+    {
+      "Area Code": 690000,
+      "Primary Rate": 5.5237,
+      "Secondary Rate": 2.8482
+    },
+    {
+      "Area Code": 481300,
+      "Primary Rate": 5.7024,
+      "Secondary Rate": 2.5502
+    },
+    {
+      "Area Code": 410000,
+      "Primary Rate": 5.4487,
+      "Secondary Rate": 2.7531
+    },
+    {
+      "Area Code": 110000,
+      "Primary Rate": 5.4446,
+      "Secondary Rate": 2.6579
+    },
+    {
+      "Area Code": 560000,
+      "Primary Rate": 5.4446,
+      "Secondary Rate": 2.6579
+    },
+    {
+      "Area Code": 291900,
+      "Primary Rate": 5.4446,
+      "Secondary Rate": 2.6579
+    },
+    {
+      "Area Code": 90200,
+      "Primary Rate": 6.631,
+      "Secondary Rate": 1.4357
+    },
+    {
+      "Area Code": 900200,
+      "Primary Rate": 6.2378,
+      "Secondary Rate": 1.5581
+    },
+    {
+      "Area Code": 240000,
+      "Primary Rate": 5.3967,
+      "Secondary Rate": 2.3267
+    },
+    {
+      "Area Code": 940500,
+      "Primary Rate": 6.8216,
+      "Secondary Rate": 0.6646
+    },
+    {
+      "Area Code": 91500,
+      "Primary Rate": 5.5926,
+      "Secondary Rate": 1.8237
+    },
+    {
+      "Area Code": 150400,
+      "Primary Rate": 5.5111,
+      "Secondary Rate": 1.7398
+    },
+    {
+      "Area Code": 470000,
+      "Primary Rate": 5.0557,
+      "Secondary Rate": 2.1733
+    },
+    {
+      "Area Code": 481400,
+      "Primary Rate": 4.9324,
+      "Secondary Rate": 2.1719
+    },
+    {
+      "Area Code": 931300,
+      "Primary Rate": 5.2687,
+      "Secondary Rate": 1.6623
+    },
+    {
+      "Area Code": 91800,
+      "Primary Rate": 5.4365,
+      "Secondary Rate": 1.4357
+    },
+    {
+      "Area Code": 940000,
+      "Primary Rate": 6.1657,
+      "Secondary Rate": 0.6646
+    },
+    {
+      "Area Code": 750000,
+      "Primary Rate": 6.1283,
+      "Secondary Rate": 0.6646
+    },
+    {
+      "Area Code": 1300,
+      "Primary Rate": 5.0665,
+      "Secondary Rate": 1.4787
+    },
+    {
+      "Area Code": 90000,
+      "Primary Rate": 5.0233,
+      "Secondary Rate": 1.4357
+    },
+    {
+      "Area Code": 981400,
+      "Primary Rate": 4.7673,
+      "Secondary Rate": 1.4772
+    },
+    {
+      "Area Code": 900000,
+      "Primary Rate": 4.6301,
+      "Secondary Rate": 1.5581
+    },
+    {
+      "Area Code": 481100,
+      "Primary Rate": 4.4366,
+      "Secondary Rate": 1.7361
+    },
+    {
+      "Area Code": 480000,
+      "Primary Rate": 4.4366,
+      "Secondary Rate": 1.7361
+    },
+    {
+      "Area Code": 1200,
+      "Primary Rate": 4.0907,
+      "Secondary Rate": 1.8146
+    },
+    {
+      "Area Code": 151200,
+      "Primary Rate": 4.0907,
+      "Secondary Rate": 1.8146
+    },
+    {
+      "Area Code": 931400,
+      "Primary Rate": 4.4987,
+      "Secondary Rate": 1.284
+    },
+    {
+      "Area Code": 1500,
+      "Primary Rate": 4.37,
+      "Secondary Rate": 1.0526
+    },
+    {
+      "Area Code": 151500,
+      "Primary Rate": 4.37,
+      "Secondary Rate": 1.0526
+    },
+    {
+      "Area Code": 881500,
+      "Primary Rate": 4.37,
+      "Secondary Rate": 1.0526
+    },
+    {
+      "Area Code": 1400,
+      "Primary Rate": 4.2965,
+      "Secondary Rate": 1.1004
+    },
+    {
+      "Area Code": 1000,
+      "Primary Rate": 3.8007,
+      "Secondary Rate": 1.5228
+    },
+    {
+      "Area Code": 982400,
+      "Primary Rate": 4.2715,
+      "Secondary Rate": 1.0414
+    },
+    {
+      "Area Code": 980000,
+      "Primary Rate": 4.2715,
+      "Secondary Rate": 1.0414
+    },
+    {
+      "Area Code": 932100,
+      "Primary Rate": 4.0029,
+      "Secondary Rate": 0.8482
+    },
+    {
+      "Area Code": 932200,
+      "Primary Rate": 4.0029,
+      "Secondary Rate": 0.8482
+    },
+    {
+      "Area Code": 930000,
+      "Primary Rate": 4.0029,
+      "Secondary Rate": 0.8482
+    },
+    {
+      "Area Code": 0,
+      "Primary Rate": 3.8007,
+      "Secondary Rate": 0.6646
+    },
+    {
+      "Area Code": 150000,
+      "Primary Rate": 3.8007,
+      "Secondary Rate": 0.6646
+    },
+    {
+      "Area Code": 880000,
+      "Primary Rate": 3.8007,
+      "Secondary Rate": 0.6646
+    },
+    {
+      "Area Code": 151900,
+      "Primary Rate": 3.8007,
+      "Secondary Rate": 0.6646
+    }
+  ]
+}
